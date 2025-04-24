@@ -8,7 +8,7 @@ const port = 3000;
 // hola route
 server.get("/hello", function (req, res) {
   const response = routeHola(req, res);
-  res.send("Hello World!");
+  res.send(response);
 });
 
 // APInombres route
